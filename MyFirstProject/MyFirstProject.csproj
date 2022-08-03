@@ -3,11 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyFirstProject.Debugging.Debug3</StartupObject>
+	  <StartupObject>MyFirstProject.OOPS.Contentment.CarInfo</StartupObject>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="OOPS\ThisKeyword\" />
-  </ItemGroup>
 
 </Project>

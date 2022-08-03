@@ -2,20 +2,27 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MyFirstProject.Pattern
+namespace MyFirstProject.LoopTest
 {
-    class Pattern3
+    class Program8
     {
         static void Main(string[] args)
-
         {
-            for (int i = 1; i <= 4; i++)
+
+            for (int i = 5; i >= 1; i--)
             {
+                for (int k = 5; k >= i; k--)
+                {
+                    Console.Write(" ");
+                }
                 for (int j = 1; j <= i; j++)
                 {
-                    Console.Write(i);
+                    Console.Write(j);
                 }
                 Console.WriteLine();
+                
+
+
             }
         }
     }
