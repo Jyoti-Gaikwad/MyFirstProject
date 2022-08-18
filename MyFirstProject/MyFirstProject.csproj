@@ -3,7 +3,13 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-	  <StartupObject>MyFirstProject.OOPS.Contentment.CarInfo</StartupObject>
+	  <StartupObject>MyFirstProject.PENA4.TotalLetter</StartupObject>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="OOPS\Abstraction\Abstract Class\" />
+    <Folder Include="OOPS\Abstraction\Inheritance\" />
+  </ItemGroup>
+
 </Project>
+
